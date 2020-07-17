@@ -12,5 +12,14 @@ window.onload = function() {
 
     ctx.stroke();
     ctx.fill();
+
+    //文字
+    var ctx2 = canvas.getContext("2d");
+    ctx2.fillStyle = "#099";
+    ctx2.strokeStyle = "#000";
+    ctx2.lineWidth = 2;
+    ctx2.font = "30px serif";
+    ctx2.fillText("HELLO",100,50);
+    ctx2.strokeText("HELLO",100,50);
   }
 }
